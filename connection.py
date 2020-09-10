@@ -5,7 +5,7 @@ database = input("DB NAME:\n")
 database = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='756756',
+    password='',
     database=database if database else None
 )
 
